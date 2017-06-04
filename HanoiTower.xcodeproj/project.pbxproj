@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					E104A55F1EE470220027D392 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MXEMDN7USP;
 						ProvisioningStyle = Automatic;
 					};
 					E104A5731EE470230027D392 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXEMDN7USP;
 				INFOPLIST_FILE = HanoiTower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jr1.at.HanoiTower;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXEMDN7USP;
 				INFOPLIST_FILE = HanoiTower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jr1.at.HanoiTower;
