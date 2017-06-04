@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func startHanoi(_ sender: UIButton) {
+        print ("Button \(String(describing: sender.currentTitle)) pressed")
+    }
 }
 
