@@ -510,6 +510,7 @@
 				E104A58A1EE470230027D392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E104A58B1EE470230027D392 /* Build configuration list for PBXNativeTarget "HanoiTowerTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				E104A58D1EE470230027D392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E104A58E1EE470230027D392 /* Build configuration list for PBXNativeTarget "HanoiTowerUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				E104A5901EE470230027D392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
