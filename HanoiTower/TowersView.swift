@@ -11,7 +11,15 @@ import UIKit
 import SpriteKit
 
 
-class TowersView: UIView {
+class TowersView {
+    var myHanoiView: SKView!
+    
+    
+    init(view: SKView) {
+        self.myHanoiView=view
+    }
+    
+    
     
     
     
