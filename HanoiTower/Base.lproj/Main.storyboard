@@ -116,22 +116,29 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.69482332468032837" blue="0.0089517012238502502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
-                            <view contentMode="scaleAspectFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="esr-XM-oa5" userLabel="Hanoi Towers">
-                                <rect key="frame" x="40" y="40" width="488" height="214"/>
+                            <view contentMode="scaleAspectFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="esr-XM-oa5" userLabel="Hanoi Towers" customClass="SKView" customModule="TowersView">
+                                <rect key="frame" x="30" y="30" width="508" height="224"/>
                                 <color key="backgroundColor" red="1" green="0.68703379187848901" blue="0.03361508276405234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="esr-XM-oa5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="S83-6Q-ojc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="esr-XM-oa5" secondAttribute="trailing" constant="20" id="bpc-FZ-MlZ"/>
+                            <constraint firstItem="esr-XM-oa5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="S83-6Q-ojc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="esr-XM-oa5" secondAttribute="trailing" constant="10" id="bpc-FZ-MlZ"/>
                             <constraint firstItem="nT2-el-usH" firstAttribute="top" secondItem="esr-XM-oa5" secondAttribute="bottom" constant="20" id="gPE-Qi-ezb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nT2-el-usH" secondAttribute="trailing" constant="10" id="hDd-wH-Utp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nT2-el-usH" secondAttribute="bottom" constant="10" id="qxX-BI-BCv"/>
-                            <constraint firstItem="esr-XM-oa5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="vII-pu-Nue"/>
+                            <constraint firstItem="esr-XM-oa5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="vII-pu-Nue"/>
                             <constraint firstItem="nT2-el-usH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="yb9-Cd-eL1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myHanoiView" destination="esr-XM-oa5" id="Vob-KW-W3h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
